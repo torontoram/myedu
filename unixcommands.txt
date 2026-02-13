@@ -55,4 +55,3 @@ find / -name "*.conf"  --  find all the files in entire system that has extensio
 cat error.log|grep Database -- show the contents of error.log file and look for Database in those errors
 cat error.log|grep "connection refused"  -- show the lines that has the string "connection refused"
 cat error.log|grep Database > db_error.log -- grabs all the lines with database in the error log file 
-
