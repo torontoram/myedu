@@ -1,0 +1,40 @@
+docker ps - List running containers
+docker ps -a - List all containers
+docker images - List available images
+docker run - Create and run a new container
+docker exec - Execute command in a running container
+docker stop - Stop a running container
+docker start - Start a stopped container
+docker restart - Restart a container
+docker rm - Remove a container
+docker rmi - Remove an image
+docker pull - Download an image from registry
+docker push - Upload an image to registry
+docker build - Build an image from Dockerfile
+docker tag - Add a tag to an image
+docker logs - View container logs
+docker stats - Display container resource usage
+docker inspect - Get detailed container information
+docker cp - Copy files between container and host
+docker attach - Attach to a running container
+docker pause - Pause a running container
+docker unpause - Resume a paused container
+docker kill - Forcefully stop a container
+docker commit - Create an image from a container
+docker save - Save an image to a tar file
+docker load - Load an image from a tar file
+docker export - Export container filesystem
+docker import - Import container filesystem
+docker network ls - List networks
+docker network create - Create a network
+docker network connect - Connect container to network
+docker volume ls - List volumes
+docker volume create - Create a volume
+docker volume rm - Remove a volume
+docker compose up - Start services defined in docker-compose.yml
+docker compose down - Stop services
+docker compose ps - List services
+docker compose logs - View service logs
+docker search - Search for images in registry
+docker login - Login to Docker registry
+docker logout - Logout from Docker registry

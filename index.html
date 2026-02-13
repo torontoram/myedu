@@ -12,6 +12,7 @@
         
         <div class="tabs">
             <button class="tab-button active" data-tab="unix">Unix Commands</button>
+            <button class="tab-button" data-tab="docker">Docker Commands</button>
             <button class="tab-button" data-tab="info">Info</button>
         </div>
         
@@ -22,10 +23,16 @@
                 </div>
             </div>
             
+            <div id="docker" class="tab-pane">
+                <div id="docker-container" class="commands-list">
+                    <p>Loading commands...</p>
+                </div>
+            </div>
+            
             <div id="info" class="tab-pane">
                 <h2>About This Guide</h2>
-                <p>This is a reference guide for common Unix and Linux commands.</p>
-                <p>Select the <strong>Unix Commands</strong> tab to view a list of useful commands.</p>
+                <p>This is a reference guide for common Unix, Linux, and Docker commands.</p>
+                <p>Select the <strong>Unix Commands</strong> or <strong>Docker Commands</strong> tabs to view lists of useful commands.</p>
             </div>
         </div>
     </div>

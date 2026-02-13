@@ -13,13 +13,13 @@ document.querySelectorAll('.tab-button').forEach(button => {
     });
 });
 
-// Load Unix commands from file
-async function loadUnixCommands() {
+// Load commands from file
+async function loadCommands(filename, containerId) {
     try {
-        const response = await fetch('unixcommands.txt');
+        const response = await fetch(filename);
         const text = await response.text();
         
-        const container = document.getElementById('commands-container');
+        const container = document.getElementById(containerId);
         container.innerHTML = '';
         
         // Parse the file and create command items
@@ -44,9 +44,9 @@ async function loadUnixCommands() {
             }
         });
     } catch (error) {
-        console.error('Error loading commands:', error);
-        document.getElementById('commands-container').innerHTML = 
-            '<p style="color: red;">Error loading Unix commands file.</p>';
+        console.error(`Error loading ${filename}:`, error);
+        document.getElementById(containerId).innerHTML = 
+            `<p style="color: red;">Error loading commands file.</p>`;
     }
 }
 
@@ -63,4 +63,7 @@ function escapeHtml(text) {
 }
 
 // Load commands when page loads
-document.addEventListener('DOMContentLoaded', loadUnixCommands);
+document.addEventListener('DOMContentLoaded', () => {
+    loadCommands('unixcommands.txt', 'commands-container');
+    loadCommands('dockercmds.txt', 'docker-container');
+});
