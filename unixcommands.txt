@@ -48,7 +48,7 @@ history - Display command history
 alias - Create command shortcuts
 export - Set environment variables
 unset - Unset environment variables
-----------------------------------------------------------------------
+----------------------------------------------------------------------  - custom commands
 ifconfig|grep -i inet  - to check the ip adress
 firewall-cmd --reload - to reload the firewall rules
 find / -name "*.conf" -  find all the files in entire system that has extension .conf
