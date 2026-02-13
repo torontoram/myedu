@@ -1,0 +1,50 @@
+ls - List directory contents
+cd - Change the working directory
+pwd - Print working directory
+mkdir - Make a new directory
+rm - Remove files or directories
+cp - Copy files or directories
+mv - Move or rename files
+cat - Display file contents
+grep - Search for patterns in files
+find - Search for files
+chmod - Change file permissions
+chown - Change file owner and group
+tar - Archive files
+gzip - Compress files
+gunzip - Decompress gzip files
+df - Display disk space usage
+du - Display directory space usage
+ps - List running processes
+kill - Terminate processes
+top - Display system resource usage
+touch - Create or update files
+echo - Print text to output
+sed - Stream editor for text manipulation
+awk - Text processing language
+sort - Sort lines of text
+uniq - Remove duplicate lines
+wc - Count words, lines, characters
+head - Display first lines of a file
+tail - Display last lines of a file
+cut - Extract columns from text
+paste - Merge lines from multiple files
+diff - Compare files
+patch - Apply patches to files
+vim - Text editor
+nano - Simple text editor
+less - Page through text
+more - Display text one page at a time
+man - Display manual pages
+whoami - Display current user
+sudo - Execute command with root privileges
+ssh - Secure shell connection
+scp - Secure copy
+rsync - Remote synchronization
+wget - Download files from the web
+curl - Transfer data using URLs
+git - Version control system
+history - Display command history
+alias - Create command shortcuts
+export - Set environment variables
+unset - Unset environment variables
