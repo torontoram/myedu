@@ -55,3 +55,8 @@ find / -name "*.conf"  --  find all the files in entire system that has extensio
 cat error.log|grep Database -- show the contents of error.log file and look for Database in those errors
 cat error.log|grep "connection refused"  -- show the lines that has the string "connection refused"
 cat error.log|grep Database > db_error.log -- grabs all the lines with database in the error log file 
+curl -i http://myedu.laurelsenterprise.ca  -- can check if the app is responding if the code is 200
+systemctl is-active --quiet rsyslog --echo "[4] Checking rsyslog & FMBL..." >> $REPORT
+systemctl status rsyslog -- checking the status of rsyslog process if still live
+nc -z -w 3 datapower-host 9090 > /dev/null 2>&1 -- Checking DataPower Connectivity 
+QM_STATUS=$(dspmq | grep -v "Running") -- dspmq lists all queue managers and their status
