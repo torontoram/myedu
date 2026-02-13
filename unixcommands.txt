@@ -48,3 +48,6 @@ history - Display command history
 alias - Create command shortcuts
 export - Set environment variables
 unset - Unset environment variables
+----------------------------------------------------------------------
+ifconfig|grep -i inet    -- to check the ip adress
+
