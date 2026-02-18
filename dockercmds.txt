@@ -1,6 +1,8 @@
+docker help - A list of common commands like run, build, and ps
 docker ps - List running containers
 docker ps -a - List all containers
 docker images - List available images
+docker images --help - is the best way to see how to manage your local "library" of blueprints
 docker run - Create and run a new container
 docker exec - Execute command in a running container
 docker stop - Stop a running container
