@@ -4,10 +4,13 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azu
 azure terraform plugin - needs be installed in VS code dev tool
 Hashicorp terraform plugin - needs be installed in VS
 =============================================================== - Docker help
-docker help - A list of common commands like run, build, and ps
-docker ps - List running containers
+In the Docker world, there isn't a single "manual" page like the Linux man command. Instead, Docker uses a nested --help flag system that is arguably more intuitive because it's contextual
+=============================================================== - docker --help
+
+docker --help - A list of common commands like run, build, and ps
+docker ps --help - List running containers
 docker ps -a - List all containers
-docker images - List available images
+docker images --help - List available images
 docker images --help - is the best way to see how to manage your local "library" of blueprints
 docker run - Create and run a new container
 docker exec - Execute command in a running container
