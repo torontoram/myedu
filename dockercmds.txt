@@ -1,3 +1,8 @@
+=============================================================== - terraform help
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli - terraform azure documentation
+
+
+=============================================================== - Docker help
 docker help - A list of common commands like run, build, and ps
 docker ps - List running containers
 docker ps -a - List all containers
