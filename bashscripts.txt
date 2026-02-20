@@ -1,3 +1,21 @@
+========================================================================================
+Simple Bash Script for Multi-Server Checks
+You can run this directly in your terminal or save it as a .sh file. This script iterates through a list of IPs and checks a specific port (e.g., 22 for SSH).
+
+# List of servers to check
+SERVERS=("192.168.1.1" "192.168.1.50" "google.com")
+PORT=22
+
+for SERVER in "${SERVERS[@]}"; do
+    if nc -z -w 3 "$SERVER" "$PORT" > /dev/null 2>&1; then
+        echo "✅ $SERVER is listening on port $PORT"
+    else
+        echo "❌ $SERVER is NOT reachable on port $PORT"
+    fi
+done
+
+==========================================================================================
+
 # Bash Scripting Commands and Examples
 
 ## 1. Print Current Date and Time
