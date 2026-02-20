@@ -5,9 +5,8 @@ azure terraform plugin - needs be installed in VS code dev tool
 Hashicorp terraform plugin - needs be installed in VS
 
 =============================================================== - terraform generic commands
+# Infrastructure as Code (IaC) Commands - 
 
-# Infrastructure as Code (IaC) Commands
-## Terraform Commands
    terraform init - Initialize a Terraform configuration:**
    terraform plan - Plan changes
    terraform apply - apply changes
