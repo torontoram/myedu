@@ -19,8 +19,8 @@ async function loadCommands(filename, containerId) {
         const container = document.getElementById(containerId);
         container.innerHTML = '';
         // Parse the file and create command items
-        const lines = text.split('\n').filter(line => line.trim());
-        lines.forEach(line => {
+        const lines = text.split('\n').filter(line = line.trim());
+        lines.forEach(line = {
             // Expected format: "command - description"
             const parts = line.split(' - ');
             if (parts.length >= 1) {
