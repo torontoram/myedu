@@ -1,8 +1,3 @@
-=============================================================== - terraform help
-https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli - terraform azure documentation
-
-azure terraform plugin - needs be installed in VS code dev tool
-Hashicorp terraform plugin - needs be installed in VS
 =============================================================== - Docker help
 In the Docker world, there isn't a single "manual" page like the Linux man command. Instead, Docker uses a nested --help flag system that is arguably more intuitive because it's contextual
 =============================================================== - docker --help
