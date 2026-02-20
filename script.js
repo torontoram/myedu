@@ -29,7 +29,7 @@ async function loadCommands(filename, containerId) {
                 const item = document.createElement('div');
                 item.className = 'command-item';
                 item.innerHTML = `
-                    <div class="command-name">">${escapeHtml(command)}</div>
+                    <div class="command-name">${escapeHtml(command)}</div>
                     <div class="command-description">${escapeHtml(description)}</div>
                 `;
                 container.appendChild(item);
