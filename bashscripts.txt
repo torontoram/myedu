@@ -1,0 +1,53 @@
+# Bash Scripting Commands and Examples
+
+## 1. Print Current Date and Time
+```bash
+echo "Current Date and Time: $(date '+%Y-%m-%d %H:%M:%S')"
+```
+
+## 2. List Files in a Directory
+```bash
+ls -la
+```
+
+## 3. Create a Directory
+```bash
+mkdir new_directory
+```
+
+## 4. Copy a File
+```bash
+cp source.txt destination.txt
+```
+
+## 5. Move a File
+```bash
+mv old_name.txt new_name.txt
+```
+
+## 6. Remove a File
+```bash
+rm unwanted_file.txt
+```
+
+## 7. Check Disk Usage
+```bash
+du -sh
+```
+
+## 8. Search for a Pattern in a File
+```bash
+grep 'pattern' filename.txt
+```
+
+## 9. Redirect Output to a File
+```bash
+command > output.txt
+```
+
+## 10. Read a File Line by Line
+```bash
+while IFS= read -r line; do
+    echo "$line"
+done < filename.txt
+```
