@@ -1,27 +1,18 @@
+=============================================================== - terraform help
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli - terraform azure documentation
+
+azure terraform plugin - needs be installed in VS code dev tool
+Hashicorp terraform plugin - needs be installed in VS
+
+=============================================================== - terraform generic commands
+
 # Infrastructure as Code (IaC) Commands
-
 ## Terraform Commands
-
-1. **Initialize a Terraform configuration:**
-   ```bash
-   terraform init
-   ```
-
-2. **Plan changes:**
-   ```bash
-   terraform plan
-   ```
-
-3. **Apply changes:**
-   ```bash
-   terraform apply
-   ```
-
-4. **Destroy infrastructure:**
-   ```bash
-   terraform destroy
-   ```
-
+   terraform init - Initialize a Terraform configuration:**
+   terraform plan - Plan changes
+   terraform apply - apply changes
+   terraform destroy - destroy the infra build already
+============================================================ - aws cloudformation command help
 ## AWS CloudFormation Commands
 
 1. **Create a stack:**
@@ -38,7 +29,7 @@
    ```bash
    aws cloudformation delete-stack --stack-name MyStack
    ```
-
+============================================================================== - ansible
 ## Ansible Commands
 
 1. **Run a playbook:**
