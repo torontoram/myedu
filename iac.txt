@@ -9,7 +9,8 @@ terraform init - Initialize a Terraform configuration:**
 terraform plan - Plan changes
 terraform apply - apply changes
 terraform destroy - destroy the infra build already
-===========# - ARM templates write and create Aure Resources using ARM Templates
+===========##############################=============== - ARM templates write and create Aure Resources using ARM Templates
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/ - ARM Temlates documentation
 azure resource manager plugin - needs be installed in vs code looks deprecated
 quick headsup - ARM templates is being deprecated and replaced with Bicep
 cons - JSON files too big 
