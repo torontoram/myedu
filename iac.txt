@@ -19,20 +19,14 @@ quick headsup - ARM templates is being deprecated and replaced with Bicep
 cons - JSON files too big 
 storage-account.json  - sample arm template to create Azure storage account resource
 
-============================================================================== - ansible
-## Ansible Commands
+============================================================================== - az commands
+az login - az cli command to login azure
+az account show - 
+az account set --subscription "<subscription_id_or_name>" - 
+az login --allow-no-subscriptions - 
+az group create --name arm-vscode --location eastus - 
+az group create --name arm-vscode --location eastus - 
+az deployment group create --resource-group arm-vscode --template-file azuredeploy.json - 
+az group delete --name arm-vscode - 
 
-1. **Run a playbook:**
-   ```bash
-   ansible-playbook playbook.yml
-   ```
-
-2. **Check syntax:**
-   ```bash
-   ansible-playbook playbook.yml --syntax-check
-   ```
-
-3. **List hosts:**
-   ```bash
-   ansible all --list-hosts
-   ```
+================================================================================= - 
