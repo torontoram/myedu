@@ -12,22 +12,13 @@ Hashicorp terraform plugin - needs be installed in VS
    terraform apply - apply changes
    terraform destroy - destroy the infra build already
 ============================================================ - aws cloudformation command help
-## AWS CloudFormation Commands
+ARM templates - write and create Aure Resources using ARM Templates
+-------------------------------------------------------------------- - 
+azure resource manager plugin - needs be installed in vs code looks deprecated
+quick headsup - ARM templates is being deprecated and replaced with Bicep
+cons - JSON files too big 
+storage-account.json  - sample arm template to create Azure storage account resource
 
-1. **Create a stack:**
-   ```bash
-   aws cloudformation create-stack --stack-name MyStack --template-body file://template.yaml
-   ```
-
-2. **Update a stack:**
-   ```bash
-   aws cloudformation update-stack --stack-name MyStack --template-body file://template.yaml
-   ```
-
-3. **Delete a stack:**
-   ```bash
-   aws cloudformation delete-stack --stack-name MyStack
-   ```
 ============================================================================== - ansible
 ## Ansible Commands
 
