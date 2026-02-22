@@ -4,16 +4,12 @@ https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azu
 azure terraform plugin - needs be installed in VS code dev tool
 Hashicorp terraform plugin - needs be installed in VS
 
-=============================================================== - terraform generic commands
-# Infrastructure as Code (IaC) Commands - 
-
-   terraform init - Initialize a Terraform configuration:**
-   terraform plan - Plan changes
-   terraform apply - apply changes
-   terraform destroy - destroy the infra build already
-============================================================ - aws cloudformation command help
-ARM templates - write and create Aure Resources using ARM Templates
--------------------------------------------------------------------- - 
+=============================================================== - terraform Infrastructure as Code (IaC) Commands
+terraform init - Initialize a Terraform configuration:**
+terraform plan - Plan changes
+terraform apply - apply changes
+terraform destroy - destroy the infra build already
+===========# - ARM templates write and create Aure Resources using ARM Templates
 azure resource manager plugin - needs be installed in vs code looks deprecated
 quick headsup - ARM templates is being deprecated and replaced with Bicep
 cons - JSON files too big 
