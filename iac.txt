@@ -27,3 +27,15 @@ az deployment group create --resource-group arm-vscode --template-file azuredepl
 az group delete --name arm-vscode - 
 
 ================================================================================= - 
+=====########################======== - Git commands
+git init - intialize local folder as git repo
+git clone -b <branchname> https://git.repo.url - to clone a remote repo into local folder
+git add . - to stage the file thats modified
+git commit -m "comment1" - to save the files in local repo
+git remote -v - to check the remote repo
+git remote add orgin https://remote repo url - to add the repo repo url
+git fetch origin - fetch the code again
+git checkout dev-test1 - to switch to the branchname
+git push origin dev-test1 - to push back the code
+git status - to check everything is synced
+=======#########################============ - usefull commands
