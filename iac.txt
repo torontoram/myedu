@@ -9,6 +9,8 @@ terraform init - Initialize a Terraform configuration:**
 terraform plan - Plan changes
 terraform apply - apply changes
 terraform destroy - destroy the infra build already
+terraform apply -var="env_name=staging" - For Staging
+terraform apply -var="env_name=prod" - For prd without hardcoding env
 ===========##############################=============== - ARM templates write and create Aure Resources using ARM Templates
 https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/ - ARM Temlates documentation
 azure resource manager plugin - needs be installed in vs code looks deprecated
