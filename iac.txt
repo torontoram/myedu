@@ -29,7 +29,15 @@ az deployment group create --resource-group arm-vscode --template-file azuredepl
 az group delete --name arm-vscode - 
 
 ================================================================================= - 
-=====########################======== - Git commands
+=====########################======== - Git commands for sample terraform repo
+echo "# terraform" >> README.md - info
+git init - first command
+git add README.md - info
+git commit -m "first commit" -second command
+git branch -M main - setting the branch
+git remote add origin https://github.com/torontoram/terraform.git - setting the remote repo in local
+git push -u origin main - pushing the local code to repo
+=========####################============= - git universal commands
 git init - intialize local folder as git repo
 git clone -b <branchname> https://git.repo.url - to clone a remote repo into local folder
 git add . - to stage the file thats modified
