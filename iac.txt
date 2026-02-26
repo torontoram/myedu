@@ -16,7 +16,7 @@ https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/ - ARM 
 azure resource manager plugin - needs be installed in vs code looks deprecated
 quick headsup - ARM templates is being deprecated and replaced with Bicep
 cons - JSON files too big 
-storage-account.json  - sample arm template to create Azure storage account resource
+https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager - Azure Quickstart Templates
 
 ============================================================================== - az commands
 az login - az cli command to login azure
