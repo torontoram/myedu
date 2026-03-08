@@ -1,4 +1,10 @@
 ----------------------------------------------------------------------  - custom commands
+sudo firewall-cmd --list-ports  - firewall commands in redhat
+sudo firewall-cmd --permanent --add-port=8080/tcp  - firewall commands in redhat
+sudo firewall-cmd --reload  - firewall commands in redhat
+sudo ss -tlnp | grep 8080 - check if listnening on port 8080
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword - 
+
 ifconfig|grep -i inet  - to check the ip adress
 firewall-cmd --reload - to reload the firewall rules
 find / -name "*.conf" -  find all the files in entire system that has extension .conf
