@@ -32,6 +32,13 @@ az group create --name arm-vscode --location eastus -
 az group create --name arm-vscode --location eastus - 
 az deployment group create --resource-group arm-vscode --template-file azuredeploy.json - 
 az group delete --name arm-vscode - 
+az --version - 
+az bicep installe - 
+az bicep version - 
+az bicep build --file main.bicep - 
+az bicep decompile --file main.json - 
+az bicep lint --file main.bicep - 
+az containerapp up - 
 
 ================================================================================= - 
 =====########################======== - Git commands for sample terraform repo
